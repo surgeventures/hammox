@@ -42,7 +42,8 @@ defmodule Hammox.MixProject do
     [
       {:mox, "~> 0.5"},
       {:ordinal, "~> 0.1.0"},
-      {:ex_doc, "~> 0.21", only: :dev, runtime: false}
+      {:ex_doc, "~> 0.21", only: :dev, runtime: false},
+      {:credo, "~> 1.1.0", only: [:dev, :test], runtime: false}
     ]
   end
 
